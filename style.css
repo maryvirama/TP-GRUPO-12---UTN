@@ -14,3 +14,10 @@ body {
     font-size: 16px;
     font-family: 'Libre Baskerville', serif ;
 }
+img.celu{
+	position: fixed;
+	right: 50px;
+	bottom:20px;
+	width: 70px;
+	height: 70px;
+}
