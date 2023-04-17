@@ -13,7 +13,7 @@ body {
 
 .formReserva{
     width: 400px;
-    background: #24303c;
+    background: #fff;
     padding: 30px;
     margin:auto;
     margin-top: 100px;
@@ -27,17 +27,19 @@ body {
 .formReserva h4{
     font-size: 22px;
     margin-bottom:20px;
+    font-family: 'Libre Baskerville', serif;
+    color: black;
 }
 .controles{
     width: 100%;
-    background:#24303c;
+    background:#eee;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
     border: 1px solid #1f53c5;
     font-family: 'Libre Baskerville', serif;
     font-size: 18px;
-    color: #fff;
+    color:  #1f53c5;
 }
 .formReserva p{
      height: 5px 5px;
@@ -47,10 +49,10 @@ body {
 
 }
 .formReserva a{
-    color: yellow ;
+    color: #1f53c5 ;
 }
 .formReserva a:hover{
-    color: white;
+    color: gray;
     text-decoration: underline;
 
 }
