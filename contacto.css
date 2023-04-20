@@ -1,0 +1,175 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgb(153, 139, 133);
+}
+
+.contacto, 
+.simple-card {
+    height: 450px;
+    max-width: 300px;
+    margin: auto;
+    position: relative;
+
+}
+.contacto {
+    perspective:900px;
+
+}
+.simple-card{
+    text-align: center;
+    transition: all 1.5s cubic-bezier(0.7,-.5,0.3,1.8);
+    -webkit-transition: all 1.5s cubic-bezier(0.7,-.5,0.3,1.8);
+    -moz-transition: all 1.5s cubic-bezier(0.7,-.5,0.3,1.8);
+    -ms-transition: all 1.5s cubic-bezier(0.7,-.5,0.3,1.8);
+    -o-transition: all 1.5s cubic-bezier(0.7,-.5,0.3,1.8);
+    transform-style: preserve-3d;
+}
+.contacto:hover .simple-card{
+    transform:rotateY(180deg) ;
+    -webkit-transform:rotateY(180deg) ;
+    -moz-transform:rotateY(180deg) ;
+    -ms-transform:rotateY(180deg) ;
+    -o-transform:rotateY(180deg) ;
+}
+.frente,
+.atras{
+    width: 300px;
+    position: relative;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+.frente{
+    cursor: pointer;
+    height: 100%;
+    background-image: url(img/carlos.jpg);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+    -webkit-border-radius:50px;
+    background-size: cover;
+    background-position: center center;
+}
+.atras{
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    position: absolute;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    height: 450px;
+    background: #fff;
+
+}
+.contenido{
+    padding-top: 25% ;
+}
+.contenido h2{
+    font-size: 35px;
+    margin: 0;
+    font-weight: 300;
+
+}
+.contenido h4{
+    margin: 0;
+
+}
+.contacto, 
+.simple-card {
+    height: 450px;
+    max-width: 300px;
+    margin: auto;
+    position: relative;
+
+}
+.contacto {
+    perspective:900px;
+
+}
+.simple-card{
+    text-align: center;
+    transition: all 1.5s cubic-bezier(0.7,-.5,0.3,1.8);
+    -webkit-transition: all 1.5s cubic-bezier(0.7,-.5,0.3,1.8);
+    -moz-transition: all 1.5s cubic-bezier(0.7,-.5,0.3,1.8);
+    -ms-transition: all 1.5s cubic-bezier(0.7,-.5,0.3,1.8);
+    -o-transition: all 1.5s cubic-bezier(0.7,-.5,0.3,1.8);
+    transform-style: preserve-3d;
+}
+.contacto:hover .simple-card{
+    transform:rotateY(180deg) ;
+    -webkit-transform:rotateY(180deg) ;
+    -moz-transform:rotateY(180deg) ;
+    -ms-transform:rotateY(180deg) ;
+    -o-transform:rotateY(180deg) ;
+}
+.frente1,
+.atras{
+    width: 300px;
+    position: relative;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+.frente1{
+    cursor: pointer;
+    height: 100%;
+    background-image: url(img/vir.jpg);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+    -webkit-border-radius:50px;
+    background-size: cover;
+    background-position: center center;
+}
+.atras{
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    position: absolute;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    height: 450px;
+    background: #fff;
+
+}
+.contenido{
+    padding-top: 25% ;
+}
+.contenido h2{
+    font-size: 35px;
+    margin: 0;
+    font-weight: 300;
+
+}
+.contenido h4{
+    margin: 0;
+
+}
+img.celu{
+	position: fixed;
+	right: 50px;
+	bottom:20px;
+	width: 70px;
+	height: 70px;
+}
